@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://newzone.top/LearnData/rss.xml" rel="self" type="application/rss+xml"/>
     <title>LearnData-开源笔记</title>
-    <link>https://newzone.top/</link>
+    <link>https://newzone.top/LearnData/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 01 Jan 2023 08:12:02 GMT</pubDate>
-    <lastBuildDate>Sun, 01 Jan 2023 08:12:02 GMT</lastBuildDate>
+    <pubDate>Sun, 01 Jan 2023 08:26:41 GMT</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2023 08:26:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
@@ -17,9 +17,9 @@
     <category>服务器</category>
     <item>
       <title>电脑上实现微信双开，无需网页版或第三方软件</title>
-      <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
-      <guid>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</guid>
-      <source url="https://newzone.top/rss.xml">电脑上实现微信双开，无需网页版或第三方软件</source>
+      <link>https://newzone.top/LearnData/posts/2017-04-18-wechat_multi_open.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-04-18-wechat_multi_open.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">电脑上实现微信双开，无需网页版或第三方软件</source>
       <description>由于工作原因，有时候我们需要在电脑上登录多个微信。但微信限制一个客户端只能登陆一个账号，PC 端 + 网页版就成了通用方案，操作效率下降许多。 其实我们还有更好的办法。在微信 PC 版之余，同时安装微信 For Windows，就能实现客户端双开！ 微信 For Windows 安装 打开「运行」对话框，输入并启动「应用商店」或「Microsoft Store」，搜索并安装 微信 For Windows。</description>
       <category>工具</category>
       <pubDate>Tue, 18 Apr 2017 00:00:00 GMT</pubDate>
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>RSS 入门篇：Feed43&amp;FeedEx-为静态网页定制 RSS 源</title>
-      <link>https://newzone.top/posts/2017-04-22-rss_feed43_feedex.html</link>
-      <guid>https://newzone.top/posts/2017-04-22-rss_feed43_feedex.html</guid>
-      <source url="https://newzone.top/rss.xml">RSS 入门篇：Feed43&amp;FeedEx-为静态网页定制 RSS 源</source>
+      <link>https://newzone.top/LearnData/posts/2017-04-22-rss_feed43_feedex.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-04-22-rss_feed43_feedex.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">RSS 入门篇：Feed43&amp;FeedEx-为静态网页定制 RSS 源</source>
       <description>迷上 IFTTT 后急需 RSS 来监测网页，找到免费的 FEED43。网上有很多教程，但对新手都不够友好，就重新整理了一份。 ► 开始烧制属于自己的 feed 1. 进入网页 FEED43 无需注册，点击 Create your own feed 直接使用。</description>
       <category>自动化</category>
       <pubDate>Sat, 22 Apr 2017 12:54:00 GMT</pubDate>
@@ -132,9 +132,9 @@
     </item>
     <item>
       <title>office 2016 安装程序报错解决办法</title>
-      <link>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</link>
-      <guid>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</guid>
-      <source url="https://newzone.top/rss.xml">office 2016 安装程序报错解决办法</source>
+      <link>https://newzone.top/LearnData/posts/2017-07-28-office_2016_installer_error.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-07-28-office_2016_installer_error.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">office 2016 安装程序报错解决办法</source>
       <description>重新安装 Office 系统或更改安装组件时，经常提示：「找不到有效的安装源」，但实际这些文件都能在安装包内找到。这是由于注册表和组件而导致的报错，「找不到有效的安装源」并不是真实原因，解决方法查看下方。 解决方法 打开 regedit.exe，在注册表中找到路径 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Delivery\SourceEngine\Downloads\{90160000-00BA-0804-1000-0000000FF1CE}-C\Sources\PROPLUS16(RG)-6186D162。 修改 Path 数据，改为安装包位置，比如 F:\5.软件资源\系统重装\SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426\groove.zh-cn。 在 C 盘建立安装组件： 把安装包路径 \groove.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00BA-0804-1000-0000000FF1CE}-C 目录下 (如果没有这个目录就自己建立)。 把安装包路径 \proplus.ww\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-C。 将需要的程序文件放入 MSOCache 路径 MSOCache 其它的目录下内容同样根据注册表的内容把它指示的光盘中的安装文件复制到相应的目录下。如果没有那个目录就要自己建立，类似的目录一共有 12 个。 如果不想全装可以只选择需要的软件，下面以 Onenote 和 Access 为例。 Onenote 把安装包路径 \onenote.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00A1-0804-1000-0000000FF1CE}-CC。 Access 把安装包路径 \access.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0015-0804-1000-0000000FF1CE}-C。 最后进入安装包运行 setup.exe 安装正常。</description>
       <category>系统</category>
       <pubDate>Fri, 28 Jul 2017 11:02:00 GMT</pubDate>
@@ -175,9 +175,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>OneNote 2016 无法登陆问题解决</title>
-      <link>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</link>
-      <guid>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</guid>
-      <source url="https://newzone.top/rss.xml">OneNote 2016 无法登陆问题解决</source>
+      <link>https://newzone.top/LearnData/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">OneNote 2016 无法登陆问题解决</source>
       <description>OneNote 安装后，提示输入账号，但点击「下一步」始终没反应，无法进行登陆。 打开 IE 浏览器，访问 live.com，如果网页提示「登录需要启动 JavaScript」，说明问题的根源出在 IE 的设置上。</description>
       <category>系统</category>
       <pubDate>Sat, 29 Jul 2017 15:19:00 GMT</pubDate>
@@ -195,9 +195,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>电脑关机了，第二天一看确又开着的？让系统正常关机！</title>
-      <link>https://newzone.top/posts/2017-09-02-forced_shutdown.html</link>
-      <guid>https://newzone.top/posts/2017-09-02-forced_shutdown.html</guid>
-      <source url="https://newzone.top/rss.xml">电脑关机了，第二天一看确又开着的？让系统正常关机！</source>
+      <link>https://newzone.top/LearnData/posts/2017-09-02-forced_shutdown.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-09-02-forced_shutdown.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">电脑关机了，第二天一看确又开着的？让系统正常关机！</source>
       <description>电脑晚上明明按下关机键，第二天早上却发现电脑开了一晚上？ 这是因为后台应用程序和 GUI 应用程序在阻止或取消关机，系统未能按正常关机。按下列方法授予系统自动关机权限，就能让系统正常关机。 方法如下： 点击「开始菜单」，搜索「Regedit」，进入注册表编辑器。 打开窗口后，在注册表上方菜单中输入 计算机\HKEY_CURRENT_USER\Control Panel\Desktop。 在右侧窗格中找到 AutoEndTasks 键值，如果没有，则新建一个名为 AutoEndTasks 的「字符串值」，并将键值的数值设为 1。AutoEndTasks 表示自动结束失去响应的程序任务，0 为 false，是默认值，表示不自动结束失去响应的程序；1 为 true，则表示电脑会自动结束失去响应的程序。 查找或创建字符串值 WaitToKillAppTimeout，将数值设为 2000。2000 是毫秒，就是当有没有响应的程序时，等待 2 秒后会自动结束相应程序。</description>
       <category>系统</category>
       <pubDate>Sat, 02 Sep 2017 00:38:00 GMT</pubDate>
@@ -242,9 +242,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>加速 SMB 协议，让 PC 变身小型 NAS</title>
-      <link>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</link>
-      <guid>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</guid>
-      <source url="https://newzone.top/rss.xml">加速 SMB 协议，让 PC 变身小型 NAS</source>
+      <link>https://newzone.top/LearnData/posts/2017-09-03-smb_lan_sharing.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-09-03-smb_lan_sharing.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">加速 SMB 协议，让 PC 变身小型 NAS</source>
       <description>Windows 系统开启 SMB 协议： 打开「控制面板」窗口，在「类别」查看方式下单击「程序」。 打开「程序」窗口，单击「启用或关闭 windows 功能」。 打开「windows 功能」窗口，勾选 SMB 直通。 勾选「远程差分压缩 API 支持」。</description>
       <category>系统</category>
       <pubDate>Sun, 03 Sep 2017 20:57:00 GMT</pubDate>
@@ -274,9 +274,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</source>
+      <link>https://newzone.top/LearnData/posts/2017-10-18-light_cat_e8-c-epon_admin.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-10-18-light_cat_e8-c-epon_admin.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</source>
       <description>为什么要获得光猫超级密码？ *端口映射 (eMule high ID)、桥接模式（路由器掌控拨号，不能兼容固定电话）。*网上关于光猫超级密码的获取攻略都在 2012-14 年，已经无法使用了。 测试环境 运营商：上海电信 设备：贝尔 E8-C-EPON 硬件版本：RG201O-CA_V1A2 软件版本：E201OCAA2V11S 光猫超级密码破解步骤 地址栏输入 192.168.1.1，用户名：光猫背面，密码：光猫背面，登陆管理界面。 浏览器地址栏输入 192.168.1.1/backupsettings.txt，将 backupsettings.txt 文件导出并备份在电脑上。 如果打不开上面的地址，改为输入 192.168.1.1/backupsettings.conf，并做好备份。 打开下载好的文档 backupsettings.txt 或 backupsettings.conf，搜索 TeleComAccount，两个 password 间就是超级密码。超级账号是 telecomadmin。 地址栏输入 192.168.1.1，用刚获取的超级密码登陆，然后开始端口映射和设备桥接了。</description>
       <category>网络</category>
       <pubDate>Wed, 18 Oct 2017 18:28:00 GMT</pubDate>
@@ -312,9 +312,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>光猫改造 篇二：光猫 + 路由器，实现端口映射</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇二：光猫 + 路由器，实现端口映射</source>
+      <link>https://newzone.top/LearnData/posts/2017-10-18-light_cat_port_forwarding.html</link>
+      <guid>https://newzone.top/LearnData/posts/2017-10-18-light_cat_port_forwarding.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">光猫改造 篇二：光猫 + 路由器，实现端口映射</source>
       <description>光猫默认没有管理权限，需要先获得光猫的超管密码，参考 光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）。 光猫端口映射步骤： 登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址-192.168.1.X) 登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。 在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</description>
       <category>网络</category>
       <pubDate>Wed, 18 Oct 2017 22:00:00 GMT</pubDate>
@@ -340,9 +340,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>小型网站管理员，快放弃 CDN！</title>
-      <link>https://newzone.top/posts/2018-01-19-forget_the_cdn.html</link>
-      <guid>https://newzone.top/posts/2018-01-19-forget_the_cdn.html</guid>
-      <source url="https://newzone.top/rss.xml">小型网站管理员，快放弃 CDN！</source>
+      <link>https://newzone.top/LearnData/posts/2018-01-19-forget_the_cdn.html</link>
+      <guid>https://newzone.top/LearnData/posts/2018-01-19-forget_the_cdn.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">小型网站管理员，快放弃 CDN！</source>
       <description>CDN 的全称是 Content Delivery Network，即内容分发网络。其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可就近取得所需内容，解决 Internet 网络拥挤的状况，提高用户访问网站的响应速度。 国内 CDN 有阿里云、腾讯、百度、网宿、七牛云、又拍云等。</description>
       <category>服务器</category>
       <pubDate>Fri, 19 Jan 2018 12:00:00 GMT</pubDate>
@@ -365,9 +365,9 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
     </item>
     <item>
       <title>雇个机器人帮你干活</title>
-      <link>https://newzone.top/posts/2018-01-31-hire_a_robot.html</link>
-      <guid>https://newzone.top/posts/2018-01-31-hire_a_robot.html</guid>
-      <source url="https://newzone.top/rss.xml">雇个机器人帮你干活</source>
+      <link>https://newzone.top/LearnData/posts/2018-01-31-hire_a_robot.html</link>
+      <guid>https://newzone.top/LearnData/posts/2018-01-31-hire_a_robot.html</guid>
+      <source url="https://newzone.top/LearnData/rss.xml">雇个机器人帮你干活</source>
       <description>机器人会取代你工作！ 计算云会取代你工作！ AI 会取代你的工作！ 我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。 作为懒人、宅男，等不及了怎么办？ 既然还没被取代，那就雇个机器人帮你干活！ 我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</description>
       <category>自动化</category>
       <pubDate>Wed, 31 Jan 2018 22:51:00 GMT</pubDate>
